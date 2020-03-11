@@ -58,9 +58,23 @@
 					</div>
 				</div>
       </div>
-      <div class="banner">
-        <h1 class="H3">Make The World Happy</h1>
-    <img src="img/Banners.jpg" alt="Contact" class="bannerimg">
+      <div class="slider" >
+        <div id="about-slider" >
+          <div id="carousel-slider" class="carousel slide" data-ride="carousel" >
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="img/Banners.jpg" class="img-responsive" alt="" style="position: relative;height: 200px">
+                <div class="carousel-caption">
+                  <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+                    <h2 class="text-cente" style="margin-top: 100px;"><span>Make The Word Happy</span></h2>
+                  </div>
+                  <div class="col-md-10 col-md-offset-1">
+                    <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s" >
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
     <div class="grid-map">
       <section class="contact-page">
         <div class="container-map">
@@ -286,6 +300,10 @@
   <script src="js/donate.js"></script>
   <link rel="stylesheet" href="css/donate.css">
   <script src="contactform/contactform.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+    wow = new WOW({}).init();
+  </script>
 </body>
 
 </html>
